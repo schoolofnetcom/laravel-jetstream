@@ -95,5 +95,13 @@ class JetstreamServiceProvider extends ServiceProvider
             'create',
             'update',
         ])->description(__('Editor users have the ability to read, create, and update.'));
+
+        // Jetstream::role('financeiro', __('Financeiro'), [
+        //     'create',
+        //     'read',
+        //     'update',
+        //     'delete',
+        //     'my_permission'
+        // ])->description(__('Administrar finanças.'));
     }
 }
